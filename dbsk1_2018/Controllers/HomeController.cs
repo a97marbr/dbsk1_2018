@@ -12,6 +12,10 @@ namespace dbsk1_2018.Controllers
     {
         public IActionResult Index()
         {
+            string text = "Hello World";
+            int number = 2;
+            ViewBag.HelloText = text;
+            ViewBag.ANumber = number;
             return View();
         }
     }
